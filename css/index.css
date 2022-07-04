@@ -4,37 +4,39 @@ main {
   grid-template-columns: [text-column] 50% [img-column] 50%;
   background-image: url("../Img/index_background_image.png");
   background-repeat: no-repeat; }
-
-main div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-main div h2 {
-  margin: 100px 0px 20px 61px; }
-
-main div p {
-  margin-bottom: 100px;
-  margin-left: 61px; }
-
-main div button {
-  width: 189px;
-  height: 60px;
-  margin-left: 100px; }
+  main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    main div h1 {
+      margin: 1vw 0vw 1vw 3vw;
+      color: #399C8A;
+      font-size: 4vw; }
+    main div p {
+      margin-left: 3vw;
+      color: #585F63;
+      font-size: 2vw; }
+    main div .read-button {
+      width: 10vw;
+      height: 6vh;
+      margin: 5vw 0vw 1vw 15vw; }
+  main img {
+    width: 38vw;
+    height: 90vh; }
 
 #about-us {
   display: flex;
   flex-direction: column;
   background-image: url("../Img/about_us_background_image.png");
-  background-repeat: no-repeat;
-  padding-left: 61px; }
-
-#about-us h2 {
-  margin-bottom: 20px; }
-
-#about-us p {
-  width: 60%;
-  margin-bottom: 50px; }
+  background-repeat: no-repeat; }
+  #about-us .sub-title {
+    color: #399C8A;
+    font-size: 4vw;
+    margin-bottom: 20px;
+    margin-left: 3vw; }
+  #about-us p {
+    width: 60%;
+    margin-bottom: 50px; }
 
 #about-us div {
   display: grid;
@@ -169,7 +171,8 @@ footer div {
     margin-left: 4vw; }
   header nav ul {
     column-gap: 10px; }
-  header nav ul li, header nav h1 {
+  header nav ul li,
+  header nav h1 {
     font-size: 18px; }
   header nav .sub-title {
     font-size: 18px; }
