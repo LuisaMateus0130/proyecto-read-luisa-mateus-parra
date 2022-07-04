@@ -9,26 +9,29 @@
 a {
   text-decoration: none; }
 
-nav {
+ul {
+  list-style: none; }
+
+header nav {
   display: flex;
   justify-content: space-between;
   background-color: rgba(104, 240, 207, 0.23);
   align-items: center; }
-  nav .read-logo {
+  header nav .read-logo {
     display: flex;
     align-items: center;
     margin: 0.5vw; }
-    nav .read-logo .read-logo__img {
+    header nav .read-logo .read-logo__img {
       width: 4vw; }
-    nav .read-logo .read-logo__img:hover {
+    header nav .read-logo .read-logo__img:hover {
       transform: scale(1.1);
       transition: 0.5s; }
-    nav .read-logo .read-logo__a {
+    header nav .read-logo .read-logo__a {
       font-size: 2vw;
       color: #06B696;
       text-decoration: none;
       margin: 0.5vw; }
-  nav .read-logo__items {
+  header nav .read-logo__items {
     font-size: 1.5vw;
     color: #06B696;
     text-decoration: none;

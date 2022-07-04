@@ -12,41 +12,46 @@
 a {
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: $background-nav;
-    align-items: center;
-
-    .read-logo {
+header {
+    nav {
         display: flex;
+        justify-content: space-between;
+        background-color: $background-nav;
         align-items: center;
-        margin: 0.5vw;
 
-        .read-logo__img {
-            width: 4vw;
-        }
-
-        .read-logo__img:hover {
-            transform: scale(1.1);
-            transition: 0.5s;
-        }
-
-        .read-logo__a {
-            font-size: $logo-font-size;
-            color: $text_green--color;
-            text-decoration: none;
+        .read-logo {
+            display: flex;
+            align-items: center;
             margin: 0.5vw;
-        }
-    }
 
-    .read-logo__items {
-        font-size: $items-font-size;
-        color: $text_green--color;
-        text-decoration: none;
-        align-items: center;
-        margin: 1vw;
+            .read-logo__img {
+                width: 4vw;
+            }
+
+            .read-logo__img:hover {
+                transform: scale(1.1);
+                transition: 0.5s;
+            }
+
+            .read-logo__a {
+                font-size: $logo-font-size;
+                color: $subtitle-color;
+                text-decoration: none;
+                margin: 0.5vw;
+            }
+        }
+
+        .read-logo__items {
+            font-size: $items-font-size;
+            color: $subtitle-color;
+            text-decoration: none;
+            align-items: center;
+            margin: 1vw;
+        }
     }
 }
 
