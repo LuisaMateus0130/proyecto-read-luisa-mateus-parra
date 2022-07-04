@@ -34,13 +34,14 @@ nav {
     text-decoration: none;
     align-items: center;
     margin: 1vw; }
-  nav .read-button {
-    width: 10vw;
-    height: 5vh;
-    border-radius: 38px;
-    background-color: #009277;
-    font-size: 1.5vw;
-    margin: 1vw; }
-    nav .read-button a {
-      text-decoration: none;
-      color: #FFFFFF; }
+
+.read-button {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 38px;
+  background-color: #009277;
+  font-size: 1.5vw;
+  margin: 1vw; }
+  .read-button a {
+    text-decoration: none;
+    color: #FFFFFF; }

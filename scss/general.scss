@@ -48,19 +48,18 @@ nav {
         align-items: center;
         margin: 1vw;
     }
+}
 
-    .read-button {
-        width: 10vw;
-        height: 5vh;
-        border-radius: 38px;
-        background-color: $button-background-color;
-        font-size: $items-font-size;
-        margin: 1vw;
+.read-button {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 38px;
+    background-color: $button-background-color;
+    font-size: $items-font-size;
+    margin: 1vw;
 
-        a {
-            text-decoration: none;
-            color: $button-text-color;
-        }
+    a {
+        text-decoration: none;
+        color: $button-text-color;
     }
-
 }
