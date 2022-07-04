@@ -45,3 +45,21 @@ nav {
   .read-button a {
     text-decoration: none;
     color: #FFFFFF; }
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    padding: 2vw; }
+    header nav .read-logo .read-logo__a {
+      font-size: 4vw;
+      margin-left: 2vw; }
+    header nav .read-logo .read-logo__img {
+      width: 8vw; }
+    header nav .read-logo__items {
+      font-size: 3vw;
+      font-weight: bold; }
+  .read-button {
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 8vw;
+    max-height: 8vw;
+    font-size: 3vw; } }
