@@ -73,5 +73,7 @@ main {
       main .create-blog__form textarea {
         height: 20vw; }
       main .create-blog__form .read-button {
-        max-width: 20vw;
-        min-width: 20vw; } }
+        max-width: 15vw;
+        min-width: 15vw;
+        align-self: flex-end;
+        border-radius: 5px; } }

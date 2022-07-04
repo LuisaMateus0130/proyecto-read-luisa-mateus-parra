@@ -109,8 +109,10 @@ main {
             }
 
             .read-button {
-                max-width: 20vw;
-                min-width: 20vw;
+                max-width: 15vw;
+                min-width: 15vw;
+                align-self: flex-end;
+                border-radius: 5px;
             }
         }
     }
