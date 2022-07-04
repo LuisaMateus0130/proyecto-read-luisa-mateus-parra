@@ -16,8 +16,14 @@ ul{
     list-style: none;
 }
 
-header {
-    nav {
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-nav;
+    align-items: center;
+    padding: 0vw 2vw;
+
+    .read-logo {
         display: flex;
         justify-content: space-between;
         background-color: $background-nav;

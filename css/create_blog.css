@@ -1,0 +1,79 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vw;
+  position: relative; }
+  main h2 {
+    color: #399C8A;
+    width: 70vw;
+    text-align: right;
+    font-weight: bold; }
+  main .create-blog__form {
+    display: flex;
+    flex-direction: column;
+    width: 70vw; }
+    main .create-blog__form div input {
+      width: 100%; }
+    main .create-blog__form div .create-blog__man-img {
+      border-radius: 50%;
+      min-width: 15vw;
+      max-width: 15vw;
+      min-height: 15vw;
+      max-height: 15vw;
+      position: relative;
+      top: 10vw;
+      right: 30vw; }
+    main .create-blog__form div .create-blog__profile-bg-img {
+      min-width: 20vw;
+      max-width: 20vw;
+      min-height: 20vw;
+      max-height: 20vw;
+      position: relative;
+      top: 10vw;
+      right: 13vw;
+      z-index: -1; }
+    main .create-blog__form input, main .create-blog__form textarea {
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      padding: 4vw;
+      margin-bottom: 4vw; }
+    main .create-blog__form .read-button {
+      align-self: center;
+      max-width: 30vw;
+      min-width: 30vw; }
+
+@media only screen and (min-width: 600px) {
+  main {
+    margin-top: 2vw; }
+    main h2 {
+      font-size: 3vw; }
+    main .create-blog__form {
+      position: relative;
+      top: -10vw;
+      width: 60vw; }
+      main .create-blog__form div .create-blog__man-img {
+        min-width: 8vw;
+        max-width: 8vw;
+        min-height: 8vw;
+        max-height: 8vw;
+        top: 5vw;
+        right: 20vw; }
+      main .create-blog__form div .create-blog__profile-bg-img {
+        min-width: 13vw;
+        max-width: 13vw;
+        min-height: 13vw;
+        max-height: 13vw;
+        top: 8vw;
+        right: 9vw; }
+      main .create-blog__form input, main .create-blog__form textarea {
+        padding: 1vw;
+        margin-bottom: 2vw; }
+      main .create-blog__form textarea {
+        height: 20vw; }
+      main .create-blog__form .read-button {
+        max-width: 15vw;
+        min-width: 15vw;
+        align-self: flex-end;
+        border-radius: 5px; } }
