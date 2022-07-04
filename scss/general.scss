@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+@import "utilities/variables";
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-nav;
+    align-items: center;
+
+    .read-logo {
+        display: flex;
+        align-items: center;
+        margin: 0.5vw;
+
+        .read-logo__img {
+            width: 4vw;
+        }
+
+        .read-logo__img:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+
+        .read-logo__a {
+            font-size: $logo-font-size;
+            color: $text_green--color;
+            text-decoration: none;
+            margin: 0.5vw;
+        }
+    }
+
+    .read-logo__items {
+        font-size: $items-font-size;
+        color: $text_green--color;
+        text-decoration: none;
+        align-items: center;
+        margin: 1vw;
+    }
+
+    .read-button {
+        width: 10vw;
+        height: 5vh;
+        border-radius: 38px;
+        background-color: $button-background-color;
+        font-size: $items-font-size;
+        margin: 1vw;
+
+        a {
+            text-decoration: none;
+            color: $button-text-color;
+        }
+    }
+
+}
