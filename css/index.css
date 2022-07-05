@@ -144,104 +144,91 @@ footer {
     justify-content: space-between; }
 
 @media only screen and (max-width: 600px) {
-  header {
-    position: fixed; }
-  header nav {
-    padding: 1vh;
-    width: 100vw; }
-  header nav div {
-    column-gap: 0px;
-    align-items: center; }
-  header nav div img {
-    width: 10vw;
-    height: 10vw; }
-  header nav div h1 {
-    margin-left: 4vw; }
-  header nav ul {
-    column-gap: 10px; }
-  header nav ul li,
-  header nav h1 {
-    font-size: 18px; }
-  header nav .sub-title {
-    font-size: 18px; }
-  header nav ul li .green-button {
-    width: 100px;
-    height: 40px; }
   main {
-    display: flex;
-    flex-direction: column;
     height: 100vh;
     background-image: url("../Img/home_background_mobile.png");
     background-repeat: no-repeat;
-    background-size: cover; }
-  main div .sub-title {
-    margin-left: 5%;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    color: #439D7D; }
-  main div p {
-    width: 50%;
-    margin-left: 5%; }
-  main img {
-    width: 70%;
-    height: 80%;
-    align-self: flex-end;
-    position: relative;
-    top: -160px; }
+    background-size: cover;
+    display: flex;
+    flex-direction: column; }
+    main div .title {
+      margin-top: 5vw;
+      margin-left: 2vw;
+      font-weight: 800;
+      font-size: 8vw; }
+    main div p {
+      width: 50%;
+      margin-left: 2vw;
+      font-size: 5vw;
+      margin-bottom: 2vw; }
+    main img {
+      width: 50vw;
+      height: 80vw;
+      align-self: flex-end; }
   #about-us {
     background-image: url("../Img/about_us_background_mobile.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0px;
-    padding: 0% 5%; }
-  #about-us h2 {
-    margin-top: 10%; }
-  #about-us p {
-    width: 90%; }
-  #about-us div {
+    padding: 0% 5%;
     display: flex;
     flex-direction: column; }
-  #about-us div iframe {
-    width: 70%;
-    align-self: center;
-    height: 30%; }
-  #about-us div img {
-    width: 100%; }
+    #about-us .sub-title {
+      margin-top: 6vw;
+      font-size: 10vw;
+      font-weight: 800; }
+    #about-us .sub-text {
+      width: 90%;
+      font-size: 4.5vw;
+      margin-bottom: 6vw; }
+    #about-us div {
+      display: flex;
+      flex-direction: column; }
+      #about-us div iframe {
+        width: 80%;
+        height: 60%;
+        align-self: center;
+        margin-bottom: 6vw; }
+      #about-us div img {
+        width: 100%;
+        height: 100%; }
   #categories {
     background-image: url("../Img/categories_background_mobile.png");
     padding: 5%; }
-  #categorie-cards-container {
-    display: flex;
-    flex-direction: column; }
-  #categorie-cards-container div {
-    align-self: center;
-    width: 90%;
-    height: 200px;
-    margin-bottom: 10%; }
-  #categorie-cards-container div h3 {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px; }
-  #categorie-cards-container div button {
-    height: 20%; }
-  #categories table {
-    width: 100%; }
-  #categories table tr td {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px; }
+    #categories .sub-title {
+      font-size: 10vw;
+      margin-bottom: 1vw; }
+    #categories #categorie-cards-container {
+      display: flex;
+      flex-direction: column; }
+      #categories #categorie-cards-container div {
+        align-self: center;
+        width: 90%;
+        height: 200px;
+        margin-bottom: 10%; }
+        #categories #categorie-cards-container div h3 {
+          font-weight: 400;
+          font-size: 20px; }
+        #categories #categorie-cards-container div button {
+          height: 20%; }
+    #categories table {
+      width: 100%; }
+      #categories table tr td {
+        font-weight: 400;
+        font-size: 3vw;
+        line-height: 19px; }
   footer {
     width: 100%;
     padding: 3% 5%; }
-  footer p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    width: 100%; }
-  footer div {
-    width: 100%;
-    justify-content: flex-end;
-    column-gap: 20px; }
-  footer div img {
-    width: 6vw; } }
+    footer p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      width: 100%; }
+    footer div {
+      width: 100%;
+      justify-content: flex-end;
+      column-gap: 10px; }
+      footer div img {
+        max-width: 5vw;
+        min-width: 5vw; } }
