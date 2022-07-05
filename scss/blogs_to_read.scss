@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
 @import "utilities/variables";
 
+$profile-icon-height: 5vw;
+$profile-icon-width: 5vw;
 
 main {
     display: flex;
@@ -8,12 +10,32 @@ main {
     align-items: center;
 
     h1 {
-        position: relative;
-        margin-right: auto;
+        align-self: flex-start;
         color: $title-color;
-        font-size: $title-font-size;
-        margin-left: 2vw;
-        margin-top: 1.5vw;
+        margin: 2vw 0vw 0vw 2vw;
+    }
+
+    .profile-image__container {
+        position: relative;
+        width: 70vw;
+
+        .profile__img {
+            border-radius: 50%;
+            width: $profile-icon-width;
+            height: $profile-icon-height;
+            position: relative;
+            top: 2vw;
+            right: 2vw;
+            z-index: 1;
+        }
+
+        .profile__background-img {
+            width: 8vw;
+            position: relative;
+            top: 4vw;
+            right: 8vw;
+            z-index: -1;
+        }
     }
 
     .blogs-to-read {
@@ -22,28 +44,73 @@ main {
         align-items: center;
         border: 1px solid rgba(0, 0, 0, 0.15);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background-color: #FFFFFF;
         border-radius: 10px;
-        width: 60vw;
-        margin: 3vw;
+        width: 70vw;
+        z-index: 0;
 
-        img{
-            width: 2vw;
+        h2 {
+            width: 90%;
+            position: relative;
+            bottom: 1vw;
+            color: $title-color;
+        }
+
+        p {
+            text-align: center;
+            padding: 1vw 5vw 2vw 5vw;
+            color: $paragrahp-color;
+        }
+
+        .country__section {
+            display: flex;
+            flex-direction: row-reverse;
+
+            img {
+                margin-right: 0.5vw;
+            }
+
+            h4 {
+                color: $paragrahp-color;
+            }
         }
     }
 
-    .profile__img{
-        width: 10vw;
-        height: 20vh;
-        border-radius: 100px;
-        position: relative;
-        z-index: 2;
-        left: -500px;
+    .blogs-to-read__imgbandera {
+        width: 2vw;
     }
-    
-    .background__img{
-        height: 20vh;
-        position: relative;
-        left: -500px;
-        top:-30px;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        .profile-image__container {
+
+            .profile__img {
+                border-radius: 50%;
+                width: 20vw;
+                height: 20vw;
+                position: relative;
+                top: 3vw;
+                right: 12vw;
+                z-index: 1;
+            }
+
+            .profile__background-img {
+                width: 28vw;
+                position: relative;
+                top: 8vw;
+                right: 35vw;
+                z-index: -1;
+            }
+
+        }
+        .blogs-to-read{
+            .country__section{
+                img{
+                    width: 6vw;
+                }
+            }
+        }
     }
+
 }

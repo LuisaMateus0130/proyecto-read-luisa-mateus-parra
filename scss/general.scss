@@ -68,6 +68,25 @@ nav {
     }
 }
 
+footer {
+    display: flex;
+    background-color: $background-nav;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 4vw;
+    margin-top: 2vw;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        width: 10vw;
+
+        img, a {
+            width: 2vw;
+        }
+    }
+}
+
 @media only screen and (max-width: 600px) {
     a {
         text-decoration: none; 
@@ -105,5 +124,16 @@ nav {
         min-height: 8vw;
         max-height: 8vw;
         font-size: 3vw;
+    }
+
+    footer{
+        div{
+            width: 25vw;
+            padding-right: 3vw;
+            img{
+                width: 7vw;
+            }
+        }
+       
     }
 }
